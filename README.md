@@ -1,6 +1,6 @@
 # In-situ sensor data and Python scripts developed for the TIMBERS project.
 
-This repository contains in-situ sensor data and the python code that were used in the research article in Remote Sensing titled "The potential of multibeam sonars as 3D turbidity and SPM monitoring tool in the North Sea" by Praet et al. (2023).
+This repository contains in-situ sensor data and the python code that were used in the research article: Praet, N.; Collart, T.; Ollevier, A.; Roche, M.; Degrendele, K.; De Rijcke, M.; Urban, P.; Vandorpe, T. The Potential of Multibeam Sonars as 3D Turbidity and SPM Monitoring Tool in the North Sea. *Remote Sens.* **2023**
 
 It contains following ipython notebooks:
 
@@ -84,4 +84,4 @@ It includes:
 * Optical Misalignment plot
 * Table of predicted SPMC statistics per campaign
 
-This research was conducted in the framework of the TIMBERS project (grant number SR/00/381), the STURMAPSS (dissemination) project (grant number SR/L9/221) and the TURBEAMS project (grant number B2/RV/21/TURBEAMS). All projects were funded by the Belgian Science Policy Office BELSPO.
+This research was conducted in the framework of the TIMBERS project (grant number SR/00/381), the STURMAPSS (dissemination) project (grant number SR/L9/221) and the TURBEAMS project (grant number RV/21/TURBEAMS). All projects were funded by the Belgian Science Policy Office BELSPO.
