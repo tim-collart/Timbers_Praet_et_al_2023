@@ -1,0 +1,27 @@
+name: pcp-env
+channels:
+  - conda-forge
+dependencies:
+  - entwine
+  - nodejs
+  - gdal
+  - pdal
+  - python-pdal
+  - numpy
+  - pandas
+  - geopandas
+  - dask
+  - dask-ml
+  - dask-jobqueue
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - statsmodels
+  - scikit-learn
+  - imbalanced-learn
+  - scipy
+  - ipylab
+  - ujson
+  - xarray
+  - rioxarray
+  - openpyxl

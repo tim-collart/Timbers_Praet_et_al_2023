@@ -1,0 +1,12 @@
+# get head of file
+head -n 5 <file>
+# replace first line
+var="Depth (m); Value (dB); x (m); y (m)"
+sed -i "1s/.*/$var/" <file>
+
+# split up large csv in multiple small csv's
+split -d -l 100000000 /f/VLIZ/TimbersWCdata_ALL/ASCII_Export_20210204/NEW/0003_20210204_102336_SimonStevin_Mask_Tide_Sv_db100-0_allpings_0095_6565_LL_PolarEchograms.csv data/test/raw/file_part_ --additional-suffix=.csv
+
+# replace first line of split files with the header
+header=$(head -n 1 /f/VLIZ/TimbersWCdata_ALL/ASCII_Export_20210204/NEW/0003_20210204_102336_SimonStevin_Mask_Tide_Sv_db100-0_allpings_0095_6565_LL_PolarEchograms.csv)
+for f in data/test/raw/file_part_*; do sed -i "1s/.*/$header/" $f; done

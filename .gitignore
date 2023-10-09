@@ -1,0 +1,27 @@
+# These are some examples of commonly ignored file patterns.
+# You should customize this list as applicable to your project.
+# Learn more about .gitignore:
+#     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+
+# dask files
+dask-worker-space/
+
+# data files
+data/
+
+# publication output
+# publication_output/
+
+# ds store files?
+.DS_Store
+*/.DS_Store
+
+# notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints
+# pycahce
+*.pyc
+
+# remove vscode config
+.vscode
+.vscode/*
