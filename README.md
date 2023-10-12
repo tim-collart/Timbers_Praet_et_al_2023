@@ -1,6 +1,6 @@
 # In-situ sensor data and Python scripts developed for the TIMBERS project. [![DOI](https://zenodo.org/badge/702668447.svg)](https://zenodo.org/badge/latestdoi/702668447)
 
-This repository contains in-situ sensor data and the python code that were used in the research article: Praet, N.; Collart, T.; Ollevier, A.; Roche, M.; Degrendele, K.; De Rijcke, M.; Urban, P.; Vandorpe, T. The Potential of Multibeam Sonars as 3D Turbidity and SPM Monitoring Tool in the North Sea. *Remote Sens.* **2023**
+This repository contains in-situ sensor data and the python code that were used in the research article: Praet, N.; Collart, T.; Ollevier, A.; Roche, M.; Degrendele, K.; De Rijcke, M.; Urban, P.; Vandorpe, T. The Potential of Multibeam Sonars as 3D Turbidity and SPM Monitoring Tool in the North Sea. *Remote Sens.* **2023**, 15, 4918. https://doi.org/10.3390/rs15204918
 
 It contains following ipython notebooks:
 
